@@ -1868,9 +1868,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/code-coverage@npm:3.12.10":
-  version: 3.12.10
-  resolution: "@cypress/code-coverage@npm:3.12.10"
+"@cypress/code-coverage@npm:3.12.17":
+  version: 3.12.17
+  resolution: "@cypress/code-coverage@npm:3.12.17"
   dependencies:
     "@cypress/webpack-preprocessor": "npm:^6.0.0"
     chalk: "npm:4.1.2"
@@ -1878,7 +1878,7 @@ __metadata:
     debug: "npm:4.3.4"
     execa: "npm:4.1.0"
     globby: "npm:11.1.0"
-    istanbul-lib-coverage: "npm:3.0.0"
+    istanbul-lib-coverage: "npm:^3.0.0"
     js-yaml: "npm:4.1.0"
     nyc: "npm:15.1.0"
   peerDependencies:
@@ -1887,7 +1887,7 @@ __metadata:
     babel-loader: ^8.3 || ^9
     cypress: "*"
     webpack: ^4 || ^5
-  checksum: 6ba933c6078090043e779e7760cfd5cafd6037b0b9151cbe477eca2707a2ac641cf4466203bf8b2666c1e13f5a7d2e926ce10160ad0a345a58e2ac2df7a974ba
+  checksum: 63a7fc1dc3fac9f4ccdfdbadb87f9e97504c11cb1eebfbf37f7dceb494c207433e57ea22497d1235a52ea5de854ddf24a9c408e9ba8a6db5167e1087e1412e31
   languageName: node
   linkType: hard
 
@@ -3418,10 +3418,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/i18n@npm:0.13.9":
-  version: 0.13.9
-  resolution: "@types/i18n@npm:0.13.9"
-  checksum: 1bebdf4f7e7998fe436e62825dd0d4ab2898c1bdb07e7fd3a897673c2842c692e693a38221e8bddd7eab43686e382613159e57177ae8b879e14c366b0c111727
+"@types/i18n@npm:0.13.10":
+  version: 0.13.10
+  resolution: "@types/i18n@npm:0.13.10"
+  checksum: 4b6c84536bf891d07fb1b1daf2e8d66889d0c317dc3c2b653d65a922ee3df3cef93b811b71e46dfb6483a95beb1515a7c82bf3f0fb05d54084ac519ff93f706d
   languageName: node
   linkType: hard
 
@@ -7051,7 +7051,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:18.4.2"
     "@commitlint/config-conventional": "npm:18.4.2"
-    "@cypress/code-coverage": "npm:3.12.10"
+    "@cypress/code-coverage": "npm:3.12.17"
     "@emotion/react": "npm:11.11.1"
     "@emotion/styled": "npm:11.11.0"
     "@graasp/apps-query-client": "npm:^3.4.0"
@@ -7064,7 +7064,7 @@ __metadata:
     "@tanstack/react-query": "npm:^4.36.1"
     "@tanstack/react-query-devtools": "npm:^4.36.1"
     "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
-    "@types/i18n": "npm:0.13.9"
+    "@types/i18n": "npm:0.13.10"
     "@types/node": "npm:20.9.2"
     "@types/react": "npm:18.2.37"
     "@types/react-dom": "npm:18.2.15"
@@ -7094,7 +7094,7 @@ __metadata:
     nock: "npm:^13.3.8"
     nyc: "npm:15.1.0"
     plotly: "npm:^1.0.6"
-    prettier: "npm:3.1.0"
+    prettier: "npm:3.1.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-i18next: "npm:13.5.0"
@@ -7939,13 +7939,6 @@ __metadata:
   version: 0.1.2
   resolution: "isstream@npm:0.1.2"
   checksum: 22d9c181015226d4534a227539256897bbbcb7edd1066ca4fc4d3a06dbd976325dfdd16b3983c7d236a89f256805c1a685a772e0364e98873d3819b064ad35a1
-  languageName: node
-  linkType: hard
-
-"istanbul-lib-coverage@npm:3.0.0":
-  version: 3.0.0
-  resolution: "istanbul-lib-coverage@npm:3.0.0"
-  checksum: eb0ba205890ee02ea9d76b31d6adf196f532b28a158c0c4db0db6ee6b60de476aca7bba34a9321d17fc396853db758d9430f1202ed28a7a6060e9d1cc8f555c0
   languageName: node
   linkType: hard
 
@@ -9522,12 +9515,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.1.0":
-  version: 3.1.0
-  resolution: "prettier@npm:3.1.0"
+"prettier@npm:3.1.1":
+  version: 3.1.1
+  resolution: "prettier@npm:3.1.1"
   bin:
     prettier: bin/prettier.cjs
-  checksum: e95e8f93c6b9aea2ac1e86bebe329bee90c8c50d9a23d1f593eba8d7f39b33b3641eb28785001505b6723c47895a5322ad12a2fb855b289cb7bae450ffc34425
+  checksum: 26a249f321b97d26c04483f1bf2eeb22e082a76f4222a2c922bebdc60111691aad4ec3979610e83942e0b956058ec361d9e9c81c185172264eb6db9aa678082b
   languageName: node
   linkType: hard
 
@@ -11603,8 +11596,8 @@ __metadata:
   linkType: hard
 
 "vite@npm:^5.0.0":
-  version: 5.0.5
-  resolution: "vite@npm:5.0.5"
+  version: 5.0.11
+  resolution: "vite@npm:5.0.11"
   dependencies:
     esbuild: "npm:^0.19.3"
     fsevents: "npm:~2.3.3"
@@ -11638,7 +11631,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: f4cd6e6e38448bdb6dd4dc36c0b34a5c42944d88961b9df246e75a4c3237196b1c64b1afc563524405d1fe3f34e728b9dbfd8cbc5af4e0a03371033d8057fdfe
+  checksum: f1a8fea35ed9f162d7a10fd13efb2c96637028b0a319d726aeec8b31e20e4d047272bda5df82167618e7774a520236c66f3093ed172802660aec5227814072f4
   languageName: node
   linkType: hard
 
