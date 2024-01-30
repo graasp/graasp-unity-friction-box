@@ -23,7 +23,7 @@
     "@types/node": "20.9.2",
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15",
-    "i18next": "23.7.6",
+    "i18next": "23.7.20",
     "plotly": "^1.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
