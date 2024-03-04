@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
 import { CssBaseline, ThemeProvider, createTheme, styled } from '@mui/material';
-import { grey, orange, pink } from '@mui/material/colors';
+import { pink } from '@mui/material/colors';
 import { StyledEngineProvider } from '@mui/material/styles';
 
 import {
@@ -26,41 +26,14 @@ import { useObjectState } from '@/utils/hooks';
 
 import App from './main/App';
 
-// declare the module to enable theme modification
-declare module '@mui/material/styles' {
-  interface Theme {
-    status: {
-      danger: { background: string; color: string };
-    };
-  }
-
-  // allow configuration using `createTheme`
-  interface ThemeOptions {
-    status?: {
-      danger?: { background: string; color: string };
-    };
-  }
-
-  interface PaletteOptions {
-    default: string;
-  }
-}
-
 const theme = createTheme({
   palette: {
     primary: {
       main: '#5050d2',
     },
     secondary: pink,
-    default: grey['500'],
     background: {
       paper: '#fff',
-    },
-  },
-  status: {
-    danger: {
-      background: orange['400'],
-      color: '#fff',
     },
   },
 });
