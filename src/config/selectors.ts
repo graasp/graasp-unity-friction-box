@@ -1,6 +1,7 @@
 export const PLAYER_VIEW_CY = 'player-view';
 export const BUILDER_VIEW_CY = 'builder-view';
 export const ANALYTICS_VIEW_CY = 'analytics-view';
+export const RELOAD_ANALYTICS_CY = 'reload-analytics-button';
 export const ADMIN_VIEW_CY = 'admin-view';
 
 export const buildDataCy = (selector: string): string =>
