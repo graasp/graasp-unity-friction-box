@@ -15,6 +15,7 @@ import GeneralSettings from '@/modules/main/affordances/GeneralSettings';
 import UnityTipsView from '@/modules/main/affordances/UnityTipsView';
 
 export interface ListAffordances {
+  id: string;
   label: string;
   icon: React.ReactNode;
   components: React.ReactNode;
@@ -27,21 +28,25 @@ export function GetAffordancesList(): ListAffordances[] {
   const { t } = useTranslation();
   return [
     {
+      id: 'information',
       label: t('SimulationInf'),
       icon: <InfoOutlined />,
       components: <UnityTipsView />,
     },
     {
+      id: 'general',
       label: t('General Settings'),
       icon: <Tune />,
       components: <GeneralSettings />,
     },
     {
+      id: 'camera',
       label: t('CameraSettings'),
       icon: <VideoCameraBackOutlined />,
       components: <CameraSettings />,
     },
     {
+      id: 'physicsObject',
       label: t('PhysicsObjectSettings'),
       icon: (
         <Avatar
@@ -62,6 +67,7 @@ export function GetAffordancesList(): ListAffordances[] {
       components: <CubeSettings />,
     },
     {
+      id: 'force',
       label: t('ForceSettings'),
       icon: (
         <Avatar
@@ -83,6 +89,7 @@ export function GetAffordancesList(): ListAffordances[] {
       components: <ForceSettings />,
     },
     {
+      id: 'friction',
       label: t('FrictionSettings'),
       icon: (
         <Avatar

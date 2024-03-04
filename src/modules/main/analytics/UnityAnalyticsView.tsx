@@ -11,7 +11,7 @@ import {
   Stack,
 } from '@mui/material';
 
-import { UUID } from '@graasp/sdk';
+import { AppAction, UUID } from '@graasp/sdk';
 
 import { hooks } from '@/config/queryClient';
 import {
@@ -79,9 +79,11 @@ const UnityAnalyticsView = (): JSX.Element => {
     const getAllUserRunId = (): Set<string> => {
       let prevUnityTrace;
       if (selectedUser === ALL_USERS_ID) {
-        prevUnityTrace = appActions
-          ?.filter((a) => a.type === UNITY_ACTION_TYPE)
-          ?.map((action) => (action.data as UnityAction).runId);
+        prevUnityTrace = (
+          appActions?.filter(
+            (a) => a.type === UNITY_ACTION_TYPE,
+          ) as AppAction<UnityAction>[]
+        )?.map((action) => action.data.runId);
       } else {
         prevUnityTrace = appActions
           ?.filter(
