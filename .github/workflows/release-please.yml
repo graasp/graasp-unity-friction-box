@@ -13,8 +13,6 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: graasp-app-starter-ts-vite
-          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"docs","section":"Documentation","hidden":false},{"type":"test","section":"Tests","hidden":false}]'
 
       - uses: actions/checkout@v4
         with:
@@ -22,7 +20,7 @@ jobs:
 
       - name: Tag major and minor versions
         uses: jacobsvante/tag-major-minor-action@v0.1
-        if: ${{ steps.release.outputs.releases_created }}
+        if: ${{ steps.release.outputs.releases_created == 'true' }}
         with:
           major: ${{ steps.release.outputs.major }}
           minor: ${{ steps.release.outputs.minor }}
@@ -38,8 +36,8 @@ jobs:
 
       # Trigger an 'on: repository_dispatch' workflow to run in graasp-deploy repository
       - name: Push tag to Graasp Deploy (Staging)
-        if: ${{ steps.release.outputs.releases_created }}
         uses: peter-evans/repository-dispatch@v3
+        if: ${{ steps.release.outputs.releases_created == 'true' }}
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: graasp/graasp-deploy
