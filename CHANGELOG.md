@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/graasp/graasp-unity-friction-box/compare/v1.0.1...v1.0.2) (2024-03-07)
+
+
+### Bug Fixes
+
+* update noWrap prop on typography ([1fb391d](https://github.com/graasp/graasp-unity-friction-box/commit/1fb391d73ddfb71102a627be306fb068556f65ec))
+
 ## [1.0.1](https://github.com/graasp/graasp-unity-friction-box/compare/v1.0.0...v1.0.1) (2024-03-07)
 
 
