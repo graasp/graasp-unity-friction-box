@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/graasp/graasp-unity-friction-box/compare/v1.0.0...v1.0.1) (2024-03-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @graasp/ui to v4.9.0 ([#17](https://github.com/graasp/graasp-unity-friction-box/issues/17)) ([a9e0a66](https://github.com/graasp/graasp-unity-friction-box/commit/a9e0a66998b7d102ebccc3c8ebc8d2969ea27ff5))
+* **deps:** update dependency @types/node to v20.11.25 ([9bc7c33](https://github.com/graasp/graasp-unity-friction-box/commit/9bc7c33885488934c742ced0a8db0dc58a7248df))
+* **deps:** update dependency react-i18next to v14.0.8 ([94635ab](https://github.com/graasp/graasp-unity-friction-box/commit/94635abd2bcf4e74f19db4ab8f3ae4cf9a8bf28f))
+* **deps:** update dependency react-i18next to v14.1.0 ([#29](https://github.com/graasp/graasp-unity-friction-box/issues/29)) ([6655fe6](https://github.com/graasp/graasp-unity-friction-box/commit/6655fe6e8c9e4ba89ed73b4acddb4c93cda90560))
+* **deps:** update react monorepo ([06de1c5](https://github.com/graasp/graasp-unity-friction-box/commit/06de1c5a729b416653f9dbf00995c4393df74e17))
+* grid ([d26a3e1](https://github.com/graasp/graasp-unity-friction-box/commit/d26a3e154ef2708c7971bd91c6d1960029467f60))
+
 ## 1.0.0 (2024-03-06)
 
 
