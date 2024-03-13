@@ -11619,11 +11619,11 @@ __metadata:
   linkType: hard
 
 "react-unity-webgl@npm:^9.5.0":
-  version: 9.5.0
-  resolution: "react-unity-webgl@npm:9.5.0"
+  version: 9.5.1
+  resolution: "react-unity-webgl@npm:9.5.1"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 10/045d331d8f2a38c44b230d546b241f747e339778ba738256f5c04ebe6b5f307a599479939ad6b66e0481dd032f0fd6fcb56b293d5db3f3d4d8d11ab3d23e2a06
+  checksum: 10/d66d4abf35af178a9e169180f735a9f13aa10416041fcfff30af6942893f789d1c9ce5f11b297472e97591385e2a7656bf9695030a7957549702fd28d40d797c
   languageName: node
   linkType: hard
 
