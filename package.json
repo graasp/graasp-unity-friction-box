@@ -22,7 +22,7 @@
     "@tanstack/react-query-devtools": "^4.36.1",
     "@types/node": "20.11.30",
     "@types/react": "18.2.74",
-    "@types/react-dom": "18.2.23",
+    "@types/react-dom": "18.2.24",
     "i18next": "23.10.1",
     "plotly": "^1.0.6",
     "react": "18.2.0",
