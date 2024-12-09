@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.0.3](https://github.com/graasp/graasp-unity-friction-box/compare/v1.0.2...v1.0.3) (2024-12-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @emotion/styled to v11.11.5 ([520f8f3](https://github.com/graasp/graasp-unity-friction-box/commit/520f8f3f79b41f219ec4560bf1a8f6a196d40ec9))
+* **deps:** update dependency @graasp/apps-query-client to v3.4.10 ([4f41976](https://github.com/graasp/graasp-unity-friction-box/commit/4f41976a9163a97ee06eeaad613d002351f84d37))
+* **deps:** update dependency @graasp/apps-query-client to v3.4.9 ([5376608](https://github.com/graasp/graasp-unity-friction-box/commit/5376608434fbe7414daafaf45bfe8d31c509301d))
+* **deps:** update dependency @graasp/ui to v4.9.1 ([a1f20d2](https://github.com/graasp/graasp-unity-friction-box/commit/a1f20d22ae11fe77fa289c533f4acb2da2463187))
+* **deps:** update dependency @graasp/ui to v4.9.3 ([948f3af](https://github.com/graasp/graasp-unity-friction-box/commit/948f3afa429d99f69cc70bf38dbb4d99f3fce921))
+* **deps:** update dependency @types/node to v20.11.26 ([d00989d](https://github.com/graasp/graasp-unity-friction-box/commit/d00989d2a11968636615444e57bc1e59a4a411f3))
+* **deps:** update dependency @types/node to v20.11.27 ([4acad61](https://github.com/graasp/graasp-unity-friction-box/commit/4acad619936d81c2c20293ab18752b863c852451))
+* **deps:** update dependency @types/node to v20.11.28 ([efc2888](https://github.com/graasp/graasp-unity-friction-box/commit/efc2888dd7e44d9f827c5ed980a0f4b5f8e64039))
+* **deps:** update dependency @types/node to v20.11.29 ([dc2c5fa](https://github.com/graasp/graasp-unity-friction-box/commit/dc2c5fa01922dc7d7467b0107601850f64a07592))
+* **deps:** update dependency @types/node to v20.11.30 ([c9ca860](https://github.com/graasp/graasp-unity-friction-box/commit/c9ca86064bdf1728665ddbcd3ceb05668a5558c7))
+* **deps:** update dependency @types/react to v18.2.65 ([bbf1924](https://github.com/graasp/graasp-unity-friction-box/commit/bbf19244f5f3b868a16b11489d193f5681aa26cb))
+* **deps:** update dependency @types/react to v18.2.66 ([0b53320](https://github.com/graasp/graasp-unity-friction-box/commit/0b533208174a07f771188482e89be905033365c5))
+* **deps:** update dependency @types/react to v18.2.67 ([2c19613](https://github.com/graasp/graasp-unity-friction-box/commit/2c1961327f945c63a6656cbf769564cc426bcf38))
+* **deps:** update dependency @types/react to v18.2.69 ([3d2c72c](https://github.com/graasp/graasp-unity-friction-box/commit/3d2c72c3a399392ea3afd625795c6e92638fe8f4))
+* **deps:** update dependency @types/react to v18.2.70 ([3256d10](https://github.com/graasp/graasp-unity-friction-box/commit/3256d102bd68f593c05e0b2d18bd958c71b5f523))
+* **deps:** update dependency @types/react to v18.2.72 ([a0fa29b](https://github.com/graasp/graasp-unity-friction-box/commit/a0fa29be704f250e47639a2ea23e19abe904888e))
+* **deps:** update dependency @types/react to v18.2.73 ([4e230df](https://github.com/graasp/graasp-unity-friction-box/commit/4e230df0d6cbb043d6580c0f6ecb6417f58394e1))
+* **deps:** update dependency @types/react to v18.2.74 ([afc15cd](https://github.com/graasp/graasp-unity-friction-box/commit/afc15cdda0b4b5b8058f3bd05a42ea2ad9ea0e27))
+* **deps:** update dependency @types/react-dom to v18.2.22 ([0370d39](https://github.com/graasp/graasp-unity-friction-box/commit/0370d390d845140c1dd3b25522f07ac0a79ed45f))
+* **deps:** update dependency @types/react-dom to v18.2.23 ([f5b452e](https://github.com/graasp/graasp-unity-friction-box/commit/f5b452eb8cf5f40bcd0d44f52634e6aff6a47eef))
+* **deps:** update dependency @types/react-dom to v18.2.24 ([66f94c5](https://github.com/graasp/graasp-unity-friction-box/commit/66f94c5155e32f9164b3bd3560850ea8d582c255))
+* **deps:** update dependency i18next to v23.10.1 ([dfccee1](https://github.com/graasp/graasp-unity-friction-box/commit/dfccee1c719742bea5fff7a87795cac5018bcf77))
+* **deps:** update dependency react-i18next to v14.1.3 ([22ca609](https://github.com/graasp/graasp-unity-friction-box/commit/22ca609dacc25062d3ed6ae01599e68e83f0d356))
+* **deps:** update dependency react-toastify to v10.0.5 ([85db732](https://github.com/graasp/graasp-unity-friction-box/commit/85db732bebec2055aa40416945d9bbf411987e3b))
+* **deps:** update dependency react-toastify to v10.0.6 ([#94](https://github.com/graasp/graasp-unity-friction-box/issues/94)) ([924343c](https://github.com/graasp/graasp-unity-friction-box/commit/924343c27adc7fb04a38f64203d628cd42111b89))
+* **deps:** update dependency react-unity-webgl to v9.5.1 ([b4996e4](https://github.com/graasp/graasp-unity-friction-box/commit/b4996e4c3280df83bda3b2b95b90537677aeeb1e))
+* **deps:** update dependency react-unity-webgl to v9.5.2 ([f8bf138](https://github.com/graasp/graasp-unity-friction-box/commit/f8bf1389176d264c29c0a20424778ebac99bdaed))
+* **deps:** update dependency recharts to v2.12.3 ([c15dc98](https://github.com/graasp/graasp-unity-friction-box/commit/c15dc98eaa429150e4270840e0df6d70bbd3f286))
+* **deps:** update dependency recharts to v2.12.4 ([32e5c8b](https://github.com/graasp/graasp-unity-friction-box/commit/32e5c8b7a3aa7d901375541b2356f77c4d20c1f8))
+* **deps:** update dependency recharts to v2.12.7 ([383b25e](https://github.com/graasp/graasp-unity-friction-box/commit/383b25e3c54d5120f104323bbcccfe68396ca24a))
+* **deps:** update mui (non-major) ([e147864](https://github.com/graasp/graasp-unity-friction-box/commit/e147864263e08555b609be95912cffd0ca0c75bc))
+* **deps:** update mui (non-major) ([1b6b12d](https://github.com/graasp/graasp-unity-friction-box/commit/1b6b12d0f87458ecd518e017aa9da4e5fa3da6bd))
+* **deps:** update mui (non-major) ([1ce8f11](https://github.com/graasp/graasp-unity-friction-box/commit/1ce8f11cb32999f625e6d72c34bc390f9cb6f99b))
+* **deps:** update react monorepo ([#95](https://github.com/graasp/graasp-unity-friction-box/issues/95)) ([36ac412](https://github.com/graasp/graasp-unity-friction-box/commit/36ac41256636c0dd12ecedd0ecb893df5375c14d))
+
 ## [1.0.2](https://github.com/graasp/graasp-unity-friction-box/compare/v1.0.1...v1.0.2) (2024-03-07)
 
 
